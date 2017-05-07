@@ -13,6 +13,22 @@ Features
 * Tox setup expecting to `measure coverage in out-of-process functional tests`.
 * Enforcing code quality with `Pylint`_.
 
+Quickstart
+----------
+
+Install the latest Cookiecutter if you haven't installed it yet::
+
+    pip3 install --user cookiecutter
+
+Generate the project from template::
+
+    cookiecutter gh:butla/cookiecutter-pyapp-butla
+
+Then:
+
+* run ``tox``
+* update ``requirements-test.txt`` with frozen dependencies of coverage, pylint, and pytest.
+
 Credits
 -------
 
