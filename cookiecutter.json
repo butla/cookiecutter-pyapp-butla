@@ -1,0 +1,6 @@
+{
+  "full_name": "Michał Bultrowicz",
+  "project_name": "Python app boilerplate",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "TODO - fill in the description."
+}
